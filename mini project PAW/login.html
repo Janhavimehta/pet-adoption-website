@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styl.css">
+<link rel="stylesheet" href="logsign.css">
+ <title>Pet Adoption wbsite</title>
+   </head>
+<body>
+  <header class="nav">
+    <div class="title">
+      <img src="pawlogo.png" height="100px;" width="100px;">
+      <h2>Pet Rescue</h2>
+    </div>
+
+    <div class="tab">
+      <ul>
+        <li> <a href="home.html">Home</a> </li>
+        <li> <a href="donate.html"> Donate </a> </li>
+        <li> <a href="adopt.html">Adopt</a> </li>
+        <li> <a href="aboutus.html">AboutUs</a> </li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li> <a href="joinus.html">JoinUs</a> </li>
+      </ul>
+    </div>
+  </header>
+<div class="bg-img">
+
+  <form action="">
+    <section class="log" id="login">
+        <div class="login">
+            <h1 class="hd1 center">Login</h1>
+            <input type="text" id="username" placeholder="Username">
+            <input type="text" id="login-password" placeholder="Password">
+            <p>Forgot Password?</p>
+            <button id="logbtn" onclick="submitData()">Login</button>
+            <div id="reg">not a member?<a href="signin.html">Register Now</a></div>
+        </div>
+    </form>
+</section>
+</div>
+</P>
+ <script language="javascript">
+    function submitData(){
+        let email=document.getElementById('username').value;
+        let  password=document.getElementById('login-password').value;
+         if( email=='user' && password=='1234'){
+            window.location='home.html';
+            window.alert("Login Successful")
+            
+         }
+         else{
+            window.alert("User Id or Password is wrong");
+         }
+         }
+</script>
+</body>
+</html>
+ 

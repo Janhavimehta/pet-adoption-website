@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+ <title>Pet Adoption wbsite</title>
+   </head>
+<body>
+<header>
+  <h2>
+  <img src="pawlogo.png" height="100px;" width="100px;"/><br/>
+  Pet Rescue</h2>
+</header>
+
+<div class="bg-img">
+
+  <form  class="container">
+    <h1>Registration</h1>
+
+    <label for="email"><b>Email or contact</b></label>
+    <input type="text" placeholder="Enter Email or contact" name="userid" required>
+    <label for="psw"><b> Create Password</b></label>
+    <input type="password" placeholder="Enter Password" name="pswrd" required>
+    <label for="psw"><b> Confirm Password</b></label>
+    <input type="password" placeholder="Enter Password" name="comprd" required>
+	 
+	 
+	  <button type="submit"onclick="check(this.form)" class="btn">Register</button>
+    <p class="text">Already have an account! <a href="login.html">Login</a></p>
+   
+  </form>
+</div>
+</P>
+ <script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "user" &&  form.pswrd.value == "1234" && form.comprd.value == "1234" )
+  {
+    alert("SignIn Successfully!")/*displays error message*/
+    window.open('home.html')/*opens the target page while Id & password matches*/
+   
+  }
+ else
+ {
+   alert("Incorrect Password or Username")/*displays error message*/
+  }
+}
+</script>
+</body>
+</html>
+ 

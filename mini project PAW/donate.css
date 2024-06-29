@@ -1,0 +1,84 @@
+.donate{
+    width: 90%;
+    height: 210vh;
+    margin: auto;
+    background-color:skyblue;
+}
+.donate h1{
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-style: italic; */
+    font-weight: 100;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.donate p{
+    font-size: 1.3rem;
+    margin: 20px 20px;
+}
+hr{
+    height: 4px;
+    background-color: #ECF9FF;
+    border: none;
+}
+.lbl{
+    display: block;
+    font-size: 1.8rem;
+    margin-left: 20px;
+    margin: 20px 20px ;
+}
+input[type="text"]{
+    width: 80%;
+    height: 40px;
+    margin-left:20px; 
+}
+.check{
+    display: flex;
+    width: 80%;
+    margin-left: 20px;
+    
+}
+.check div{
+    width: 30%;
+    margin: 20px;
+    margin-top: 70px;
+    margin-left: -80px;
+}
+.check div label{
+    margin: 10px;
+}
+.check>label{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.submit{
+    position: absolute;
+    width: 20%;
+    height: 40px;
+    left: 36%;
+    margin-top: 30px;
+    
+}
+.submit button{
+    width: 48%;
+    height: 100%;
+}
+button {
+	background-color: #4CAF50; 
+	color: white; 
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer; 
+	transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+.cnl{
+    background-color: lightcoral;
+}
+.cnl:hover{
+    background-color: rgb(238, 160, 160);
+}
